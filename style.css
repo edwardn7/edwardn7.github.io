@@ -1,50 +1,41 @@
-/* Reset some default styles */
-body, h1, h2, h3, p {
-    margin: 0;
-    padding: 0;
-}
-
-/* Basic styling */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+  font-family: sans-serif;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+  text-align: center;
 }
 
-nav ul {
-    list-style: none;
+h1 {
+  font-size: 2em;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 20px;
+h2 {
+  font-size: 1.5em;
+}
+
+nav {
+  margin-top: 1em;
 }
 
 nav a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  padding: 1em;
 }
 
 section {
-    padding: 20px;
-}
-
-.project {
-    background-color: #fff;
-    padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 2em;
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.project-link {
+  color: blue;
 }
